@@ -2,6 +2,9 @@
 
 > A VS Code extension that shows variables from the previous line during Python debugging sessions.
 
+<img width="794" height="828" alt="Main" src="https://github.com/user-attachments/assets/257fc1df-45f2-43f8-ac25-099af028362d" />
+
+
 ![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue)
 ![Python](https://img.shields.io/badge/Python-Debugging-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
