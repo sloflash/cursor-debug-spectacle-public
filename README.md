@@ -2,7 +2,7 @@
 
 > A VS Code extension that shows variables from the previous line during Python debugging sessions.
 
-<img width="794" height="828" alt="Main" src="https://github.com/user-attachments/assets/257fc1df-45f2-43f8-ac25-099af028362d" />
+<img width="394" height="328" alt="Main" src="https://github.com/user-attachments/assets/257fc1df-45f2-43f8-ac25-099af028362d" />
 
 
 ![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue)
@@ -23,7 +23,7 @@
 1. Download the latest `cursor-debug-spectacle-*.vsix` file
 2. Install it in VS Code:
    ```bash
-   code --install-extension cursor-debug-spectacle-1.0.0.vsix
+   cursor --install-extension cursor-debug-spectacle-1.0.0.vsix
    ```
 
 ### Method 2: VS Code Extensions Panel
@@ -53,7 +53,7 @@ result = a * c  # When stopped here: shows [c, a]
 
 The extension:
 1. **Detects Python debug sessions** using VS Code's debug API
-2. **Listens for breakpoint stops** via `onDidChangeActiveStackItem`
+2. **Listens for breakpoint stops**
 3. **Parses the previous line** to extract variable names
 4. **Retrieves variable values** from the debug adapter
 5. **Displays them** in a clean webview panel
